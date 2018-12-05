@@ -1,0 +1,151 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background-image: url(pexels-photo-255347.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh; 
+	padding: 0px;
+}
+nav{
+	width: 100%;
+	background: #FFD700;
+	padding: 0 50px;
+	box-sizing: border-box;
+	margin-top: 0px;
+	font-size: 20px;
+
+}
+.logo{
+	height: 60px;
+	width: 80px;
+	float: left;
+	margin-top: 0px;
+	padding: 15px 20px;
+}
+.menu{
+	color: black;
+}
+.welcome{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+}
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 30px;
+
+}
+nav ul li a{
+	color: black;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background: #FFD700;
+}
+.responsive img{
+	max-width: 100%;
+	/*widht:100%;*/
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.responsive-bar{
+	width: 100%;
+	background: #FFD700;
+	padding: 10px 30px;
+	box-sizing: border-box;
+	display: none;
+}
+.responsive-bar img{
+	margin: 0;
+	padding: 3px 0;
+	float: left;
+}
+.responsive-bar h2{
+	margin: 0;
+	padding: 0;
+	float: right;
+	padding: 5px 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.abouth1{
+	text-align: center;
+	color: white;
+	margin-top: 60px;
+	font-size: 60px;
+
+}
+p{
+	color: white;
+	font-size: 40px;
+}
+.responsive-about img{
+	width: 50%;
+	max-width: 100%;
+	/*max-width*/
+	display: block;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vdyoutobe{
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+}
+.vdyoutobe iframe,
+.vdyoutobe object,
+.vdyoutobe embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 900px){
+	nav{
+		display: none;
+	}
+	.responsive-bar{
+		display: block;
+	}
+	.logo{
+		display: block;
+		float: none;
+	}
+	nav ul{
+		float: none;
+	}
+	nav ul li{
+		display: block;
+		text-align: center;
+		padding: 15px 20px;
+		border-bottom: 1px;
+	}
+	/*.responsive img{
+		display: no
+	}*/
+}
+@media screen and (max-width: 1180px){
+	.welcome{
+		width: 100%;
+		padding: 0 2%;
+	}
+	.abouth1{
+		width: 100%;
+		padding: 0 2%;
+	}
+}
